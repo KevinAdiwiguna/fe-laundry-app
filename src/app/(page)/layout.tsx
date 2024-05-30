@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { REM } from "next/font/google";
-import "./globals.css";
+import "globals.css";
 
 // Icons
 import { Navbar } from "@/components/organisms/navbar";

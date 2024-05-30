@@ -32,7 +32,7 @@ export const ServicesSteps = ({ variant, icon, title, description }: ServicesSte
       <div className="bg-purple-200 p-4 rounded-full flex-shrink-0 w-fit h-fit">
         {icon}
       </div>
-      <div className="space-y-2">
+      <div>
         <h3 className="font-bold text-xl">{title}</h3>
         <p className="text-sm md:text-base">{description}</p>
       </div>

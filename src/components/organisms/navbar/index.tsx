@@ -12,7 +12,7 @@ export const Navbar = () => {
           <WashingMachineIcon fontSize={30} />
         </div>
         <div className="space-x-8 hidden sm:flex">
-          <Link href={'/home'} >Home</Link>
+          <Link href={'/'} >Home</Link>
           <Link href={'/about'} >About</Link>
           <Link href={'/services'} >Services</Link>
           <Link href={'/order'} >Order</Link>
